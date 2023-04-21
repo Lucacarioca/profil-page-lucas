@@ -1,0 +1,105 @@
+/* Design General */
+
+body {
+    font-size: 18px;
+    color: #4D5470;
+    font-family: 'Lora', serif;
+    background-image:url(images/reteste.jpg)
+  }
+  
+  h1 {
+    font-weight: 900;
+    font-size: 32px;
+  
+  }
+  
+  h2 {
+    font-weight: 600;
+    color: #0F6CBD;
+    font-size: 22px;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  img{
+    width: 100px;
+    height: auto;
+    object-position: center;
+  }
+  
+  .card-white {
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 20px 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);  
+  }
+
+  ul{
+    list-style-type: none
+  }
+  
+  .container {
+    width: 700px;
+    margin: 10px auto;
+  }
+  
+  #Lucas-picture {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid beige;
+  }
+
+  #Diapo-picture {
+    width: 500px;
+    border-radius: 10%;
+  }
+  
+  #passion {
+    width: 500px;
+    border-radius: 10%;
+  }
+
+  .btn-blue {
+    background-color: #0f6cbd;
+    color: white;
+    border-radius: 4px;
+    padding: 15px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+  }
+  
+  .btn-blue:hover {
+    background-color: rgb(0, 0, 0);
+    transition: 0,3s;
+  }
+  
+  .list-inline {
+    list-style: none;
+    padding-left: 0px;
+  }
+  
+  .list-inline li {
+    display: inline;
+    list-style: none
+  }
+
+  .list-inline i {
+    font-size: 50px;
+    color: grey;
+    letter-spacing: 100px;
+  }
+  
+  .list-inline i:hover {
+    color: black;
+    transition: 0,3s;
+    transform: translateY(10px);
+  }
+  
